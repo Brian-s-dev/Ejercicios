@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+}
+
+
+:root{
+    --background-color: #FCFBFF;
+    --secondary-background-color: #FFFFFF;
+    --primary-color: #652BDF;
+    --secondary-color: #360C72;
+    --primary-text-color: #2B2B2B;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body{
+    background-color: var(--background-color);
+}
+
+.header{
+    background-color: var(--secondary-background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 82px;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1022px;
+    padding: 16px;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;x
+}
+
+.header__logo-container{
+    display: flex;
+}
+
+.header__nav-list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__nav-item{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 4px;
+    border-radius: 50px;
+    padding: 6px 24px;
+    color: var(--primary-text-color);
+}
+
+.nav-vertical-line{
+    width: 1px;
+    height: 24px;
+    background-color: var(--primary-text-color);
+    margin: 0 12px;
+}
+
+.header__secondary-btn{
+    background-color: var(--background-color);
+    margin: 4px;
+    border-radius: 50px;  
+    border: 1px solid var(--primary-color);
+    padding: 6px 24px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary-color);
+    width: 160px;
+    height: 40px;
+}
+
+
+.header__primary-btn{
+    background-color: var(--primary-color);
+    margin: 4px;
+    border-radius: 50px;
+    padding: 6px 24px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--background-color);
+    width: 160px;
+    height: 40px;
+    border: 1px solid transparent;
+}
