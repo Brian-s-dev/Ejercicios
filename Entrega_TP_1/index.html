@@ -8,9 +8,15 @@
 </head>
 <body>
     <header class="header">
-        <div class="content-container">
+        <div class="header__content-container">
+            <div class="header__ham-icon">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="header__logo-container-mobile">
+                <img src="./img/LogoNave-Mobile.jpg" alt="Isotipo Nave">
+            </div>
             <div class="header__logo-container">
-                <img src="https://navenegocios.ar/content/dam/galicia/nave/images/logo/Logo%20Nave.jpg" alt="Logo Nave">
+                <img src="./img/Logo Nave.jpg" alt="Logo Nave">
             </div>
             <nav class="header__nav">
                     <ul class="header__nav-list">
@@ -19,14 +25,224 @@
                         <li class="header__nav-item"><a href="#">Beneficios</a></li>
                     </ul>
             </nav>
-            <div class="nav-vertical-line"></div>
-            <button class="header__secondary-btn">
-                <span>Espacio Nave</span>
-            </button>
-            <button class="header__primary-btn">
-                <span>Entrar a Nave</span>
-            </button>
+            <div class="header__btn-container">
+                 <button class="header__secondary-btn">
+                    <span>Espacio Nave</span>
+                </button>
+                <button class="header__primary-btn">
+                    <span>Entrar a Nave</span>
+                </button>
+            </div>
         </div>
     </header>
+    <main class="main__content-container">
+        <section class="main__hero-secction">
+            <div class="hero__content-container">
+                <div class="hero__container-text">
+                    <h1 class="hero_title">Cobrás con Nave, tu negocio vuela</h1>
+                    <span>
+                        Gestionás todo a tu medida y viajás liviano de comisiones
+                    </span>
+                </div>
+                <button class="header__primary-btn hero__button">
+                    <span>
+                        Soy Galicia y quiero tener Nave
+                    </span>
+                </button>
+                <div class="hero__image">
+                    <img src="./img/Bannner-hero-tu-negocio-vuela.png" alt="Imagen Hero">
+                </div>
+            </div>
+            <div class="hero__carousel_indicators">
+                <i class="bi bi-chevron-left"></i>
+                <div class="carousel_dots_container">
+                    <div class="carousel_dots_active">
+                    </div>
+                    <div class="carousel_dots_inactive">
+                    </div>
+                </div>
+                <i class="bi bi-chevron-right"></i>
+            </div>
+        </section>
+        <div class="big-section_divisor">
+        </div>
+        <section class="main__cards-section">
+            <h2>Te damos la bienvenida al vuelo de tu negocio</h2>
+            <div class="main__card-container">
+                <div class="card-container">
+                    <div class="card-icon">
+                        <i class="bi bi-piggy-bank"></i>
+                    </div>
+                    <span class="h2-card-title">
+                        Elegí cuando acreditar tus ventas
+                    </span>
+                    <p class="card-description">
+                        Lo hacés desde la plataforma Nave en pocos clicks.
+                    </p>
+                </div>
+                <div class="card-container">
+                    <div class="card-icon">
+                        <i class="bi bi-bar-chart-line"></i>
+                    </div>
+                    <span class="h2-card-title">
+                        Ganás más con costos bajos
+                    </span>
+                    <p class="card-description">
+                        Los costos por cobro son bajos para que tu negocio crezca.
+                    </p>
+                </div>
+                <div class="card-container">
+                    <div class="card-icon">
+                        <i class="bi bi-credit-card"></i>
+                    </div>
+                    <span class="h2-card-title">
+                        Ganás más con costos bajos
+                    </span>
+                    <p class="card-description">
+                        Los costos por cobro son bajos para que tu negocio crezca.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="small-section_divisor">
+        </div>
+        <section class="main__cta-section">
+            <div class="cta__content-container">
+                <div class="cta__text-container">
+                    <span class="h2-cta-title">
+                        Historias que vuelan
+                    </span>
+                    <div class="cta__copy-container">
+                        <p>
+                            Conocé a los comercios que eligen Nave todos los días <i class="bi bi-heart-fill"></i> 
+                        </p>
+                    </div>
+                </div>
+                <button class="header__primary-btn cta__button">
+                    <span>Conoce más</span>
+                </button>
+            </div>
+        </section>
+        <div class="big-section_divisor">
+        </div>
+        <section class="main__features-section">
+            <div class="features__title-container">
+                <h2>Encontrá el medio de cobro ideal</h2>
+                <div class="small-text-divisor"></div>
+                <span>
+                    Elegí las opciones que mejor se ajustan a tu negocio.
+                </span>
+            </div>
+            <div class="features__card-container qr_container">
+                <div class="features__content-container">
+                    <div class="features__text-container">
+                        <span class="h2-title-feature">
+                            QR
+                        </span>
+                        <p>
+                            Ideal para cobrar en tu local o desde donde prefieras sin manejar efectivo.
+                        </p>
+                    </div>
+                    <button class="header__primary-btn features-btn">
+                        Conocer más
+                    </button>
+                </div>
+                <img src="./img/features_qr.png" alt="Imagen Codigo QR">
+            </div>
+            <div class="features__card-container terminal_container">
+                <div class="features__content-container">
+                    <div class="features__text-container">
+                        <span class="h2-title-feature">
+                            Terminal Nave Point
+                        </span>
+                        <p>
+                            Aceptá pagos con tarjetas de débito y crédito en tu local de forma rápida y segura.
+                        </p>
+                    </div>
+                    <button class="header__primary-btn features-btn">
+                        Conocer más
+                    </button>
+                </div>
+                <img src="./img/features_terminal.png" alt="Imagen Terminal de pago">
+            </div>
+            <div class="features__card-container link_container">
+                <div class="features__content-container">
+                    <div class="features__text-container">
+                        <span class="h2-title-feature">
+                            Link de pago
+                        </span>
+                        <p>
+                            La forma más fácil de vender por chat y redes sociales. Compartí el link y cobrá desde cualquier lugar.
+                        </p>
+                    </div>
+                    <button class="header__primary-btn features-btn">
+                        Conocer más
+                    </button>
+                </div>
+                <img src="./img/features_link.png" alt="Imagen Chat Smartphone">
+            </div>
+            <div class="features__card-container online_container">
+                <div class="features__content-container">
+                    <div class="features__text-container">
+                        <span class="h2-title-feature">
+                            Tienda online
+                        </span>
+                        <p>
+                            Ofrecé una experiencia de pago sin fricciones aceptando pagos con todos los medios de cobro.
+                        </p>
+                    </div>
+                    <button class="header__primary-btn features-btn">
+                        Conocer más
+                    </button>
+                </div>
+                <img src="./img/features_online.png" alt="Imagen Codigo QR">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer__footer-section">
+            <div class="footoer__content-container">
+                <div class="footer__footer-logo-container">
+                    <img src="./img/LogoNave-Mobile.jpg" alt="Isotipo Nave">
+                </div>
+                <div class="footer__list-container">
+                    <ol class="footer_list">
+                        <span class="footer__list-title">
+                            Nave
+                        </span>
+                        <li class="footer__list-item"><a href="">Cobrá con Nave</a></li>
+                        <li class="footer__list-item"><a href="">Entrar a Nave</a></li>
+                        <li class="footer__list-item"><a href="">El blog de Nave</a></li>
+                        <li class="footer__list-item"><a href="">Empezar a cobrar</a></li>
+                        <li class="footer__list-item"><a href="">Abrir cuenta en Galicia</a></li>
+                        <li class="footer__list-item"><a href="">Cobranzas integradas</a></li>
+                        <li class="footer__list-item"><a href="">Nave Developers</a></li>
+                        <li class="footer__list-item"><a href="">Integraciones</a></li>
+                    </ol>
+                    <ol class="footer_list">
+                        <span class="footer__list-title">
+                            Medios de cobro
+                        </span>
+                        <li class="footer__list-item"><a href="">Cobrá con QR</a></li>
+                        <li class="footer__list-item"><a href="">Cobrá por tu tienda online</a></li>
+                        <li class="footer__list-item"><a href="">Cobrá con Link de pago</a></li>
+                        <li class="footer__list-item"><a href="">Cobrá con Nave Point</a></li>
+                    </ol>
+                    <ol class="footer_list">
+                        <span class="footer__list-title">
+                            Beneficios
+                        </span>
+                        <li class="footer__list-item"><a href="">Poromociones</a></li>
+                        <li class="footer__list-item"><a href="">Mapa de Nave</a></li>
+                    </ol>
+                    <ol class="footer_list">
+                        <span class="footer__list-title">
+                            Te puede interesar
+                        </span>
+                        <li class="footer__list-item"><a href="">Galicia</a></li>
+                    </ol>
+                </div>
+        </section>
+    </footer>
 </body>
 </html>
